@@ -5,26 +5,26 @@ body {
       padding: 3px;
       margin-bottom: 3px;
       border: solid 1px rgb(245, 246, 235);
-      background-color: #622a6e;
+      background-color: #417333;
     }
     p {
       font-family:'Times New Roman', Times, serif;
       padding: 3px;
       margin-bottom: 3px;
-      border: solid 1px rgb(229, 255, 0);
-      background-color: #4339ff;
+      border: solid 1px rgb(253, 240, 228);
+      background-color: #c88aff;
     }
     h1 {
       font-family: 'Times New Roman', Times, serif;
       font-size: 120%;
-      color: rgb(113, 173, 237);
+      color: rgb(0, 70, 144);
     }
     h2 {
       font-family: monospace;
       font-size: 200%;
       padding: 3px;
       margin-bottom: 3px;
-      border: solid 1px rgb(255, 141, 19);
+      border: solid 1px rgb(234, 221, 207);
       background-color: #fafae5;
       color: #000000;
     }
