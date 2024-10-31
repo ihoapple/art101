@@ -22,9 +22,4 @@ var DoubledResults = array.map(function(x){
     return Results;
 });
 
-console.log("Results:", DoubledResults);
-
-var DoubledResults = "Your doubled results here";
-
-// Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(DoubledResults);
+console.log("the results:", DoubledResults);
