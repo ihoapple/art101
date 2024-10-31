@@ -20,5 +20,4 @@ console.log(OddResults);
 var DoubledResults = array.map(function(x){
     return x * 2;
 });
-
-console.log("the results:", DoubledResults);
+console.log("the doubled Results:", DoubledResults);
