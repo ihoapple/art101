@@ -18,8 +18,7 @@ var OddResults = array.map(IsOdd);
 console.log(OddResults);
 
 var DoubledResults = array.map(function(x){
-    var Results = x * 2;
-    return Results;
+    return x * 2;
 });
 
 console.log("the results:", DoubledResults);
