@@ -45,8 +45,8 @@ body {
     }
     .special {
         background-color: rgb(0, 0, 0);
-        border: dotted 50px rgb(225, 240, 217);
-        color: rgb(214, 192, 255);
+        border: dotted 50px rgb(159, 225, 245);
+        color: rgb(245, 192, 255);
         font-weight: bold;
     }
     .text p {
