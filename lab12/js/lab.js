@@ -20,10 +20,10 @@ function sortingHat(str) {
     return "Hufflepuff"
     }
 }
-    var button = document.getElementById ("button") ;
-    button.addEventListener ("click", function() {
-    var name = document.getElementById ("input") .value;
-    var house = sortingHat (name) ;
-    newText = "<p>Congratulations" + name + "! The Sorting Hat has sorted you into " + house + "</p >";
-    document.getElementById ("output"). innerHTML = newText;
-    })
+    $(document).ready(function()
+      $("#button").click(function(){ 
+          var name = $("#input").val(); 
+          var house = sortingHat(name); 
+          newText = "<p>Congratulations, "+name+ "! The Sorting Hat has sorted you into "+house+"!</p>";
+          $("#output").html(newText);   }); 
+      );  
