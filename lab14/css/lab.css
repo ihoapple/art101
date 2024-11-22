@@ -7,9 +7,6 @@ body {
       border: solid 1px rgb(156, 201, 114);
       background-color: #ddcc9c;
     }
-    #output {
-        columns: 8;
-      }
     p {
       font-family:'Times New Roman', Times, serif;
       padding: 3px;
@@ -43,8 +40,8 @@ body {
     #result {
         width: 200px;
     }
-    #Screenshots {
-        width: 390px;
+    #screenshots {
+        width: 900px;
     }
     .special {
         background-color: rgb(0, 0, 0);
