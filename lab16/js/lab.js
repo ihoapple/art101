@@ -7,7 +7,7 @@
 
 
 // Define the API endpoint
-let endpoint = "";
+let endpoint = "https://xkcd.com/info.0.json";
 
 // Configure the AJAX request
 let ajaxConfig = {
